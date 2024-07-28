@@ -1,2 +1,18 @@
-# Uber-Trips-Analysis
-Ridesharing has undeniably been a blessing for a traffic-congested city like Dhaka. However, I found myself pondering over my personal experiences with it. Was it a luxury that I indulged in occasionally, or did I rely on it for all of my transportation needs? To gain insights into my ridesharing history, I decided to request my data from Uber. They promptly provided me with comma-separated values (.csv)file containing all of my ride data associated with my email ID. With the data, I have made some obvious changes such as converting the timestamps to timestamp data format. Removal of duplicates etc. I used DBeaver database management first to make these changes, then I did a thorough Analysis with pandas (Python), seaborn, and Plotly. Read the .pdf file first to see how I prepared the data with SQL. Then take a look at the Jupyter notebook to see the EDA.
+***Objective:*** 
+This analysis aims to uncover insights from rideshare data, leveraging the power of the pandas library alongside other essential libraries such as seaborn and matplotlib. By using pandas, we can significantly accelerate data processing tasks compared to standard Python code. Additionally, ensuring that each column in the dataset has the appropriate data type enhances the effectiveness of the analysis.
+
+The ability to generate insightful visualizations through plotting can elevate the analysis to a new level. In this context, we employ seaborn and matplotlib to create meaningful and informative plots that aid in understanding the data.
+
+The focus of this analysis is to answer key questions related to a rider's journey. By addressing these fundamental questions, we aim to provide a clear understanding of the rideshare experience. The analysis includes:
+
+**Data Cleaning and Preparation:** Ensuring the dataset is clean and the data types are correctly set for efficient processing.
+
+**Descriptive Statistics:** Summarizing the main features of the dataset to get an initial understanding.
+
+**Visual Analysis:** Utilizing seaborn and matplotlib to create visualizations that highlight important trends and patterns in the data.
+This structured approach will provide valuable insights into the rideshare data, making it easier to understand the dynamics of a rider's journey.
+
+**Reference:** Techniques, stylings and codes are written primarily following two resources-
+
+1. Matt Harrison's book, 'EFFECTIVE PANDAS'
+2. Applied Data Science Lab from WorldQuant University
